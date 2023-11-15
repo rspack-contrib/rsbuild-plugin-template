@@ -17,7 +17,7 @@
     "dev": "tsc --watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "^0.0.22",
+    "@rsbuild/core": "^0.0.23",
     "typescript": "^5.2.2"
   }
 }
