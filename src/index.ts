@@ -6,6 +6,6 @@ export const pluginFoo = (options: FooPugOptions = {}): RsbuildPlugin => ({
   name: 'plugin-foo',
 
   setup(api) {
-    console.log(api, options);
+    console.log('options', options);
   },
 });

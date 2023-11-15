@@ -1,3 +1,3 @@
 # Rsbuild Plugin
 
-Visit https://rsbuild.dev/plugins/list/ to learn how to write an Rsbuild plugin.
+Visit https://rsbuild.dev/plugins/dev/ to learn how to write an Rsbuild plugin.
