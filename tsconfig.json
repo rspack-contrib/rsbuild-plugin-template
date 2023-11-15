@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "target": "ES2019",
+    "lib": ["DOM", "ESNext"],
+    "allowJs": true,
+    "module": "Node16",
+    "strict": true,
+    "declaration": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "moduleResolution": "Node16"
+  },
+  "include": ["src"]
+}
