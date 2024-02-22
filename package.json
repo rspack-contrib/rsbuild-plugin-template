@@ -1,6 +1,7 @@
 {
   "name": "rsbuild-plugin-example",
   "version": "0.0.0",
+  "license": "MIT",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
