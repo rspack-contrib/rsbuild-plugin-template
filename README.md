@@ -36,3 +36,7 @@ Here are the available options:
 | ---- | --------- | ---------------- | ----------- |
 | foo  | `string`  | Some description | `undefined` |
 | bar  | `boolean` | Some description | `false`     |
+
+## License
+
+[MIT](./LICENSE).
