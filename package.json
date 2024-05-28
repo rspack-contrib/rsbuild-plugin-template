@@ -15,7 +15,7 @@
     }
   },
   "repository": "https://github.com/rspack-contrib/rsbuild-plugin-template",
-  "packageManager": "pnpm@9.0.2",
+  "packageManager": "pnpm@9.1.1",
   "files": [
     "dist"
   ],
@@ -29,11 +29,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@rsbuild/core": "^0.6.3",
-    "@types/node": "^20.11.30",
-    "prettier": "^3.1.0",
+    "@rsbuild/core": "^0.7.0",
+    "@types/node": "^20.12.8",
+    "prettier": "^3.2.4",
     "tsup": "^8.0.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.4"
   },
   "peerDependencies": {
     "@rsbuild/core": "0.x"
