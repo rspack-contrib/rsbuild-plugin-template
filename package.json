@@ -21,7 +21,6 @@
 		"lint": "biome check .",
 		"lint:write": "biome check . --write",
 		"prepare": "simple-git-hooks && npm run build",
-		"prepublishOnly": "npm run build",
 		"test": "playwright test"
 	},
 	"simple-git-hooks": {
