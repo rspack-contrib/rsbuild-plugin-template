@@ -10,8 +10,7 @@ export const pluginExample = (
 ): RsbuildPlugin => ({
 	name: 'plugin-example',
 
-	setup(api) {
-		console.log('api', api);
-		console.log('options', options);
+	setup() {
+		console.log('Hello Rsbuild!', options);
 	},
 });
