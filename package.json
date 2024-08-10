@@ -34,7 +34,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@playwright/test": "^1.45.3",
-    "@rsbuild/core": "^1.0.1-beta.8",
+    "@rsbuild/core": "^1.0.1-beta.11",
     "@types/node": "^20.14.13",
     "nano-staged": "^0.8.0",
     "playwright": "^1.45.3",
@@ -43,7 +43,7 @@
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "@rsbuild/core": "0.x || 1.x"
+    "@rsbuild/core": "1.x || ^1.0.1-beta.0"
   },
   "peerDependenciesMeta": {
     "@rsbuild/core": {
