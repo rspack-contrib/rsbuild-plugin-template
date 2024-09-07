@@ -36,6 +36,8 @@ importers:
         specifier: ^5.5.4
         version: 5.5.4
 
+  playground: {}
+
 packages:
 
   '@biomejs/biome@1.8.3':
