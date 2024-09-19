@@ -22,7 +22,7 @@
     "lint:write": "biome check . --write",
     "prepare": "simple-git-hooks && npm run build",
     "test": "playwright test",
-		"bump": "npx bumpp"
+    "bump": "npx bumpp"
   },
   "simple-git-hooks": {
     "pre-commit": "npx nano-staged"
