@@ -1,6 +1,6 @@
 # rsbuild-plugin-example
 
-rsbuild-plugin-example is a Rsbuild plugin to do something.
+Example plugin for Rsbuild.
 
 <p>
   <a href="https://npmjs.com/package/rsbuild-plugin-example">
