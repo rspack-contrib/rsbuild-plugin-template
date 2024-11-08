@@ -16,8 +16,8 @@
   "types": "./dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "rslib build",
+    "dev": "rslib build --watch",
     "lint": "biome check .",
     "lint:write": "biome check . --write",
     "prepare": "simple-git-hooks && npm run build",
@@ -31,10 +31,10 @@
     "@biomejs/biome": "^1.9.4",
     "@playwright/test": "^1.48.2",
     "@rsbuild/core": "^1.0.19",
+    "@rslib/core": "^0.0.16",
     "@types/node": "^22.8.6",
     "playwright": "^1.48.2",
     "simple-git-hooks": "^2.11.1",
-    "tsup": "^8.3.5",
     "typescript": "^5.6.3"
   },
   "peerDependencies": {
