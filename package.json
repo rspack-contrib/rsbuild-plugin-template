@@ -48,6 +48,7 @@
   "packageManager": "pnpm@9.14.4",
   "publishConfig": {
     "access": "public",
+    "provenance": true,
     "registry": "https://registry.npmjs.org/"
   }
 }
