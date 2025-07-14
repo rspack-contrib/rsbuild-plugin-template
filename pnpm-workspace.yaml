@@ -1,2 +1,6 @@
 packages:
-  - 'playground'
+  - playground
+
+onlyBuiltDependencies:
+  - core-js
+  - simple-git-hooks

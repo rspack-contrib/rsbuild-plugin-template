@@ -1,4 +1,4 @@
-name: Test
+name: Lint
 
 # Controls when the action will run.
 on:
@@ -15,11 +15,8 @@ permissions:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
+  lint:
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -36,7 +33,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install Dependencies
-        run: pnpm install && npx playwright install chromium
+        run: pnpm install
 
-      - name: Run Test
-        run: pnpm run test
+      - name: Run Lint
+        run: pnpm run lint
