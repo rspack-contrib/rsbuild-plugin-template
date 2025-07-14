@@ -14,7 +14,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rslib build",
     "dev": "rslib build --watch",
@@ -28,7 +30,7 @@
     "pre-commit": "npm run lint:write"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.1.1",
     "@playwright/test": "^1.53.2",
     "@rsbuild/core": "^1.4.2",
     "@rslib/core": "^0.10.4",
