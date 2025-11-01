@@ -34,7 +34,7 @@
     "@playwright/test": "^1.55.1",
     "@rsbuild/core": "^1.5.13",
     "@rslib/core": "^0.15.0",
-    "@types/node": "^22.18.8",
+    "@types/node": "^24.9.2",
     "playwright": "^1.55.1",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^5.9.3"
